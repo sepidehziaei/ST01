@@ -25,7 +25,10 @@ SECRET_KEY = '8hxhv2(x^u^64+2avd8*qxkca0_35!89s4u8jkqa92*b5q2a!o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+        '127.0.0.1',
+        'sepidzia.pythonanywhere.com'
+        ]
 
 
 # Application definition
